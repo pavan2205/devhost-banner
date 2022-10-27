@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Orbitron:wght@600&family=Poppins:ital,wght@1,700&family=Quicksand:wght@500&display=swap');
+
+* {margin: 0; padding: 0}
+body {background: #000;overflow: hidden;}
+canvas {display: flex;
+}
+
+.container{
+  display: flex;
+  background: url('bg.png');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  overflow: hidden;
+}
+
+.container1{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  left: 33%;
+}
+
+#click_button{
+  background-color: #b4ff39;
+  height: 120px;
+  width: 350px;
+  font-size: 44px;
+  border-radius: 10px;
+}
+
+#click_button a{
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 0.5cm;
+  font-weight:800;
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+}
+
+.title{
+  margin-top: 30px;
+  color: white;
+  font-size: 80px;
+  font-weight:800;
+  font-family: 'Orbitron', sans-serif;
+} 
+.title1{
+  margin-top: 100px;
+  color: white;
+  font-size: 40px;
+  font-weight:800;
+  font-family: 'Orbitron', sans-serif;
+} 
